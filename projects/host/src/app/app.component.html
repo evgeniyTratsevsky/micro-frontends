@@ -1,0 +1,19 @@
+<div class="host-container">
+  <header class="header">
+    <h1>{{ title }}</h1>
+    <nav class="navigation">
+      <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+      <a routerLink="/react-child" routerLinkActive="active">React Child</a>
+      <a routerLink="/vue-child" routerLinkActive="active">Vue Child</a>
+    </nav>
+  </header>
+  
+  <main class="main-content">
+    <router-outlet></router-outlet>
+  </main>
+  
+  <footer class="footer">
+    <p>Micro-Frontends Host Application</p>
+  </footer>
+</div>
+

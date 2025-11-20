@@ -1,0 +1,61 @@
+.angular-child-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.child-header {
+  background: linear-gradient(135deg, #dd0031 0%, #c3002f 100%);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .badge {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
+.child-nav {
+  background: #f8f9fa;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 1rem;
+  border-bottom: 2px solid #e9ecef;
+
+  a {
+    color: #495057;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+
+    &:hover {
+      background: #e9ecef;
+      color: #dd0031;
+    }
+
+    &.active {
+      background: #dd0031;
+      color: white;
+    }
+  }
+}
+
+.child-content {
+  padding: 2rem;
+  min-height: 400px;
+}
+

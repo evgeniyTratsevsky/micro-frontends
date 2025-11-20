@@ -1,0 +1,59 @@
+.host-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+.navigation {
+  display: flex;
+  gap: 1.5rem;
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    &.active {
+      background: rgba(255, 255, 255, 0.3);
+      font-weight: 600;
+    }
+  }
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background: #f5f7fa;
+}
+
+.footer {
+  background: #2d3748;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
+
