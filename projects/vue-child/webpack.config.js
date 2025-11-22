@@ -7,7 +7,7 @@ module.exports = {
   entry: './projects/vue-child/src/main.js',
   mode: 'development',
   devServer: {
-    port: 4203,
+    port: 4208,
     historyApiFallback: true,
     headers: {
       "Access-Control-Allow-Origin": "*",
